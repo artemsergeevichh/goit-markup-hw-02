@@ -1,0 +1,222 @@
+:root {
+/*вписать все цвета*/
+}
+
+body {
+   color: #757575;
+   background-color: #ffffff;
+   list-style: none;
+   font-family: "Raleway", "Roboto", sans-serif;
+}
+
+h2, h3 {
+    color: #212121;
+}
+h3 {
+    font-family: "Roboto";
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 1.14;
+}
+p {
+    font-family: "Roboto";
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/*----------header----------*/
+.header {
+
+}
+.header-logo {
+    Font-family: "Raleway";
+    font-weight: 700;
+    Font-style: Bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+}
+.studio {
+    color: #000000;
+}
+.header-navi {
+  
+}
+
+.navi-list {
+    list-style: none;
+}
+.navi-link {
+    letter-spacing: 0.02px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    list-style: none;
+    color: #212121;
+    
+}
+.navi-contact .link {
+    letter-spacing: 0.2px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 1.14;
+    line-height: 100%;
+
+}
+/*----------main----------*/
+.main {
+
+}
+.main-sect {
+    color: #ffffff;
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+
+}
+.list {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+/*----------Эффективные решения----------*/
+.main-effect {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+}
+.main-but {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.main-but:hover
+/*----------Наши преимущества----------*/
+.invisible { 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden; 
+}
+
+.section-benefits {
+    list-style: none;
+}
+/*----------Чем мы занимаемся----------*/
+.activity  {
+    text-align: center;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.section-activity {
+    list-style: none;
+
+}
+/*----------Наша команда----------*/
+.team {
+    text-align: center;
+    font-family: "Roboto";
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+}
+.section-team {
+    list-style: none;
+
+}
+/*----------Footer----------*/
+.foot {
+    background-color: #2F303A;
+}
+.contacts {
+    text-decoration: none;
+    line-height: 1.71;
+    letter-spacing: 0.01em;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.studio-dawn {
+    color: #ffffff;
+}
+
+.section-opti {
+    text-decoration: none;
+    list-style: none;
+}
+.options {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-decoration: none;
+    color: #212121;
+}
+
+.section-list {
+    list-style: none;
+    
+}
+.list-item {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+.item-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #757575;
+
+}
