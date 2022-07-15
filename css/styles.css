@@ -105,7 +105,16 @@ p {
     line-height: 1.4;
     letter-spacing: 0.06em;
 }
+.main-but:focus {
+    
+
+}
+.main-but:hover {
+    color: #757575;
+    
+}
 .main-but {
+    cursor: pointer;
     position: absolute;
     width: 200px;
     height: 50px;
@@ -124,7 +133,8 @@ p {
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
-.main-but:hover
+
+
 /*----------Наши преимущества----------*/
 .invisible { 
     position: absolute; 
@@ -174,6 +184,9 @@ p {
 .foot {
     background-color: #2F303A;
 }
+.contact:focus {
+    color: #2196F3;
+}
 .contact:hover {
     color: #2196F3;
 
@@ -188,6 +201,9 @@ p {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #ffffff;
+}
+.contacts:focus {
+    color: rosybrown;
 }
 .contacts:hover {
     color: #2196F3;
@@ -209,16 +225,31 @@ p {
 }
 /*------------- Portfolio------------*/
 .section-opti {
+    background-color: ;
     text-decoration: none;
     list-style: none;
 }
+.options:focus {
+
+}
+.options:hover {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
 .options {
+    cursor: pointer;
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-decoration: none;
+    list-style: none;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #212121;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
 
 .section-list {
@@ -242,5 +273,4 @@ p {
 
 }
 /*«С16» Кнопкам задано свойство cursor со значением pointer.
-«С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе.
 «B7» Атрибут href навигационных ссылок Студия и Портфолио содержит относительный путь к HTML-файлам этих страниц. При нажатии по ссылке происходит переход на соответствующую страницу в текущей вкладке браузера.*/
