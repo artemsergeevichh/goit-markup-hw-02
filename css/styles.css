@@ -251,6 +251,10 @@ body {
     color: var(--option-button-color);
     background-color: var(--buttons-text-color);
 }
+.options.current {
+    color: var(--option-button-color);
+    background-color: var(--buttons-text-color);
+}
 
 .options {
     font-family: inherit;
