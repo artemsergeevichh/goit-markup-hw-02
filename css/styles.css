@@ -6,7 +6,7 @@ body {
    color: #757575;
    background-color: #ffffff;
    list-style: none;
-   font-family: "Raleway", "Roboto", sans-serif;
+   font-family: "Roboto", sans-serif;
 }
 
 h2, h3 {
@@ -31,7 +31,7 @@ p {
 .header-logo {
     Font-family: "Raleway";
     font-weight: 700;
-    Font-style: Bold;
+    font-style: Bold;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -47,6 +47,12 @@ p {
 
 .navi-list {
     list-style: none;
+}
+.navi-link:focus {
+    color: #2196F3;
+}
+.navi-link:hover  {
+    color: #2196F3;
 }
 .navi-link {
     letter-spacing: 0.02px;
@@ -83,7 +89,6 @@ p {
 .list {
     list-style: none;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -95,7 +100,6 @@ p {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -111,7 +115,6 @@ p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -171,25 +174,46 @@ p {
 .foot {
     background-color: #2F303A;
 }
+.contact:hover {
+    color: #2196F3;
+
+}
+.contact {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.contacts:hover {
+    color: #2196F3;
+}
 .contacts {
     text-decoration: none;
-    line-height: 1.71;
-    letter-spacing: 0.01em;
+    list-style: none;
+    font-family: 'Roboto';
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .studio-dawn {
     color: #ffffff;
 }
-
+/*------------- Portfolio------------*/
 .section-opti {
     text-decoration: none;
     list-style: none;
 }
 .options {
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -205,7 +229,6 @@ p {
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -213,10 +236,11 @@ p {
 }
 .item-p {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     color: #757575;
 
 }
+/*«С16» Кнопкам задано свойство cursor со значением pointer.
+«С5» Текст контактов в хедере и футере меняет цвет при ховере и фокусе.
+«B7» Атрибут href навигационных ссылок Студия и Портфолио содержит относительный путь к HTML-файлам этих страниц. При нажатии по ссылке происходит переход на соответствующую страницу в текущей вкладке браузера.*/
